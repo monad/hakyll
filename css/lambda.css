@@ -1,0 +1,106 @@
+@import url(http://fonts.googleapis.com/css?family=Lora:400,400italic,700);
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+    background: #fdf6e3; 
+    font-family: "Lora", "Droid Serif", serif;
+}
+
+.pure-g main[class*="pure-u"] {
+  font-family: "Lora", "Droid Serif", serif;
+}
+
+.pure-g aside[class*="pure-u"] {
+  font-family: "Droid Sans", "Open Sans", sans-serif;
+}
+
+.pure-menu-heading {
+  color: #fdf6e3;
+  font-weight: bold;
+  background: #dc322f;
+}
+
+.pure-menu-link {
+  color: #fdf6e3;
+  font-weight: 900;
+  transition: background 1s;
+}
+
+.pure-menu-link:hover {
+    background: #dc322f;
+}
+
+.pure-menu-link:focus {
+  background: #dc322f;
+}
+
+.pure-menu-link:active {
+  background: #dc322f;
+}
+
+#logo {
+  vertical-align: -5px;
+}
+
+aside {
+  background: #dc322f;
+  border-bottom: 2px dashed #fdf6e3;
+  text-align: center;
+}
+
+main {
+  color: #657b83;
+  font-size: 1.2em;
+  line-height: 1em;
+  padding: 50px;
+}
+
+main h1 {
+  color: #586e75;
+  font-style: italic;
+  font-size: 3em;
+  text-align: center;
+}
+
+main h2 { font-size: 1.4em }
+
+div.info {
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+}
+
+footer {
+  color: #657b83;
+  float: right;
+  font-size: 0.8em;
+  padding-right: 5%;
+}
+
+main a, footer a {
+  color: #586e75;
+  text-decoration: none;
+  border-bottom: 1px dotted #586e75;
+}
+
+@media (min-width: 48em) {
+  main {
+    padding: 2em 3em 0;
+    margin-left: 175px;
+  }
+
+  aside {
+    max-width: 175px !important;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    border-right: 2px dashed #fdf6e3;
+    border-bottom: 0;
+    text-align: left;
+  }
+}
