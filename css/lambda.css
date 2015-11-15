@@ -104,3 +104,8 @@ main a, footer a {
     text-align: left;
   }
 }
+
+code {
+  font-family: "Source Code Pro", "Droid Sans Mono", monospace;
+  font-size: 0.8em;
+}
